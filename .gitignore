@@ -1,6 +1,6 @@
 # compiled output
-/dist
-/node_modules
+**/dist
+**/node_modules
 
 # Logs
 logs
@@ -15,11 +15,11 @@ lerna-debug.log*
 .DS_Store
 
 # Tests
-/coverage
-/.nyc_output
+**/coverage
+**/.nyc_output
 
 # IDEs and editors
-/.idea
+**/.idea
 .project
 .classpath
 .c9/
@@ -35,10 +35,10 @@ lerna-debug.log*
 !.vscode/extensions.json
 
 # Docs
-/documentation
+**/documentation
 
 # Build
-/.build
+**/.build
 
 # Env
 .env
@@ -48,7 +48,3 @@ lerna-debug.log*
 
 # NPMRC
 .npmrc
-
-# config
-config/firebase.json
-config/sa-translation-sdk.json
